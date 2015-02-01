@@ -1,14 +1,14 @@
-Lastlogin for Elgg 1.9
-Latest Version: 1.9.4
-Released: 2013-08-20
+Lastlogin for Elgg 1.10
+Latest Version: 1.10.5
+Released: 2015-01-02
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
-Copyright: (c) iionly 2012-2013 (for Elgg 1.8), (c) Fabrice Collette 2009-2013
+Copyright: (c) iionly 2012-2015 (for Elgg 1.8 onwards), (c) Fabrice Collette 2009-2015
 
 
-The Lastlogin plugin will display the time of last login (more precisely: time of last action), the join date and user's GUID on the members' profile pages. The last login time shown will be either "online", "within last hour", "today" or the date in YYYY/MM/DD format. The join date and user's GUID can also be helpful for admins in finding a user's data subfolder in Elgg's tree structure of the data directory.
+The Lastlogin plugin will display the time of last login (more precisely: time of last action), the join date and user's GUID and path to data directory on the members' profile pages. The last login time shown will be either "online", "within last hour", "today" or the date in YYYY/MM/DD format.
 
-The items to be displayed on profile pages can be configured: for time of last login and join date the visibility can be set either to "no", "admin only" or "everybody" (separately for both items). For users' GUIDs only the options "no" or "admin only" are available.
+The items to be displayed on profile pages can be configured: for time of last login and join date the visibility can be set either to "no", "admin only" or "everybody" (separately for both items). For users' GUIDs and path to data directory only the options "no" or "admin only" are available.
 
 
 
@@ -20,6 +20,12 @@ Installation:
 
 
 Changelog:
+
+1.10.5 (by iionly):
+
+- Based on version 1.9.4,
+- Fixed a deprecation issue for Elgg 1.10,
+- Added display of path to a user's data dir (for admins only).
 
 1.9.4 (by iionly):
 

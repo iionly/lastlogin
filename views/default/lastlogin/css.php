@@ -7,20 +7,20 @@
  * @author Fabrice Collette fabrice.collette@free.fr
  * @copyright Fabrice Collette
  *
- * Elgg 1.9 version by iionly
+ * Elgg 1.8 onwards by iionly
  * iionly@gmx.de
  */
 
 ?>
 
 .lastlogin {
-  font-weight: bold;
-  font-size: small;
-  padding: 3px 0 3px 5px;
-  margin-top: 10px;
-  background:white;
+	font-weight: bold;
+	font-size: small;
+	padding: 3px 0 3px 5px;
+	margin-top: 10px;
+	background:white;
 }
 
 .lastlogin lastlogin_online {
-  color:#26A908;
+	color:#26A908;
 }

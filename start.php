@@ -8,13 +8,13 @@
  * @author Fabrice Collette fabrice.collette@free.fr
  * @copyright Fabrice Collette
  *
- * Elgg 1.9 version by iionly
+ * Elgg 1.8 onwards by iionly
  * iionly@gmx.de
  */
 
 elgg_register_event_handler('init','system','lastlogin_init');
 
 function lastlogin_init() {
-    elgg_extend_view('css/elgg','lastlogin/css');
-    elgg_extend_view('icon/user/default','lastlogin/profile_extend',600);
+	elgg_extend_view('css/elgg','lastlogin/css');
+	elgg_extend_view('icon/user/default','lastlogin/profile_extend',600);
 }
