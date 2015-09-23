@@ -13,7 +13,7 @@ $plugin = elgg_get_plugin_from_id('lastlogin');
 
 $form = elgg_echo('lastlogin:settings:lastlogin_info') . "<br><br>";
 
-$form .= "<b>" . elgg_echo('lastlogin:settings:lastlogin_time') . "</b>";
+$form .= "<div class='mbm'><b>" . elgg_echo('lastlogin:settings:lastlogin_time') . "</b>";
 $form .= elgg_view('input/select', array(
 	'name' => 'params[lastlogin_visibility]',
 	'options_values' => array('no' => elgg_echo('lastlogin:settings:no'),
@@ -21,9 +21,9 @@ $form .= elgg_view('input/select', array(
 		'all' => elgg_echo('lastlogin:settings:all')
 	),
 	'value' => $plugin->lastlogin_visibility
-));
+)) . "</div>";
 
-$form .= "<br><br><b>" . elgg_echo('lastlogin:settings:registered_time') . "</b>";
+$form .= "<div class='mbm'><b>" . elgg_echo('lastlogin:settings:registered_time') . "</b>";
 $form .= elgg_view('input/select', array(
 	'name' => 'params[registered_visibility]',
 	'options_values' => array('no' => elgg_echo('lastlogin:settings:no'),
@@ -31,9 +31,9 @@ $form .= elgg_view('input/select', array(
 		'all' => elgg_echo('lastlogin:settings:all')
 	),
 	'value' => $plugin->registered_visibility
-));
+)) . "</div>";
 
-$form .= "<br><br><b>" . elgg_echo('lastlogin:settings:guid') . "</b>";
+$form .= "<div class='mbm'><b>" . elgg_echo('lastlogin:settings:guid') . "</b>";
 $form .= elgg_view('input/select', array(
 	'name' => 'params[guid_visibility]',
 	'options_values' => array(
@@ -41,7 +41,6 @@ $form .= elgg_view('input/select', array(
 		'yes' => elgg_echo('lastlogin:settings:yes')
 	),
 	'value' => $plugin->guid_visibility
-));
-$form .= "<br><br>";
+)) . "</div>";
 
 echo $form;

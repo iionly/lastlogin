@@ -1,0 +1,24 @@
+{
+    "name": "iionly/lastlogin",
+    "description": "Display time of last login, join date and a members's GUID and data directory path. The visibility of time of last login and join date can be set to none, admin only or everyone. Visibility of member's GUID and data directory path is either none or admin only.",
+    "type": "elgg-plugin",
+    "keywords": [
+        "elgg",
+        "plugin"
+    ],
+    "homepage": "https://github.com/iionly/lastlogin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "iionly",
+            "homepage": "https://github.com/iionly",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+            "issues": "https://github.com/iionly/lastlogin/issues"
+    },
+    "require": {
+        "composer/installers": ">=1.0.8"
+    }
+}

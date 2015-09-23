@@ -1,0 +1,46 @@
+Changelog
+=========
+
+1.10.6
+------
+
+- Verified that it works on Elgg 2.0 (therefore should also work on future Elgg 2.X versions),
+- composer.json added.
+
+1.10.5
+------
+
+- Based on version 1.9.4,
+- Fixed a deprecation issue for Elgg 1.10,
+- Added display of path to a user's data dir (for admins only).
+
+1.9.4
+-----
+
+- Updated for Elgg 1.9.
+
+1.8.4
+-----
+
+- Check if user has logged in ever (unix timestamp of last_login == 0 ?). If never logged in show "never" instead of "1970/1/1". Thanks to Elggor for reporting this issue.
+
+1.8.3
+-----
+
+- Danish translation added (thank to Herauf).
+
+1.8.2
+-----
+
+- French translation updated (thank to emanwebdev).
+
+1.8.1
+-----
+
+- French translation added (thank to emanwebdev),
+- German translation added.
+
+1.8.0
+-----
+
+- Initial release for Elgg 1.8.
