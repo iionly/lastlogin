@@ -11,7 +11,7 @@
  * iionly@gmx.de
  */
 
-return array(
+return [
 	'lastlogin:online' => 'online',
 	'lastlogin:lastlogin' => 'Seneste aktivitet',
 	'lastlogin:today' => 'idag',
@@ -28,5 +28,5 @@ return array(
 	'lastlogin:settings:no' => 'Nej',
 	'lastlogin:settings:yes' => 'Ja',
 	'lastlogin:settings:admin' => 'For admins only',
-	'lastlogin:settings:all' => 'For alle'
-);
+	'lastlogin:settings:all' => 'For alle',
+];

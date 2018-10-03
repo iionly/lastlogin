@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.3.6
+-----
+
+- Elgg 2.3 or Elgg 3.x required at minimum,
+- Code cleanup and usage of API of Elgg 2.3.
+
 1.10.6
 ------
 
