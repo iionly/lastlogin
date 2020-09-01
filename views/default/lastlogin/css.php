@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Lastlogin plugin
  *
@@ -11,10 +10,15 @@
  * Elgg 1.8 onwards by iionly
  * iionly@gmx.de
  */
+?>
+.lastlogin {
+	font-weight: bold;
+	font-size: small;
+	padding: 3px 0 3px 5px;
+	margin-top: 10px;
+	background: white;
+}
 
-elgg_register_event_handler('init', 'system', 'lastlogin_init');
-
-function lastlogin_init() {
-	elgg_extend_view('elgg.css','lastlogin/lastlogin.css');
-	elgg_extend_view('icon/user/default', 'lastlogin/profile_extend', 600);
+.lastlogin lastlogin_online {
+	color: #26A908;
 }

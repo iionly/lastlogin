@@ -1,8 +1,8 @@
-Lastlogin for Elgg 2.3 and newer Elgg 2.X and Elgg 3.X
-======================================================
+Lastlogin for Elgg 3.3 and newer Elgg 3.X
+=========================================
 
-Latest Version: 2.3.6  
-Released: 2018-09-16  
+Latest Version: 3.3.0  
+Released: 2020-08-29  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (c) iionly 2012 (for Elgg 1.8 onwards), (c) Fabrice Collette 2009
